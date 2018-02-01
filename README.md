@@ -8,7 +8,7 @@ Include Hashover-Next (https://github.com/jacobwb/hashover-next) comments into y
 Because of a php7.1 related bug in Hashover-Next use my quick fork instead ( https://github.com/poVoq/hashover-next ) if your server uses php 7.1 or newer. Thanks @leem32 for writing this fix. See details here: https://github.com/jacobwb/hashover-next/issues/186#issuecomment-337907829
 
 **Install:** 
-1. Downoad and install Hashover-Next on your server. Configure by editing the /scripts/settings.php file.
+1. Download and install Hashover-Next on your server; Configure by editing the /scripts/settings.php file.
 2. Download this plugin and place the "hashover2" folder into your Shaarli "plugins" directory. 
 3. Enable via the Shaarli tools menu & set the URL where you installed Hashover-Next.
 
