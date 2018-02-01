@@ -1,0 +1,3 @@
+description="Let visitor comment your shaares on permalinks with Hashover-Next."
+parameters="HASHOVER2_SERVER"
+parameter.HASHOVER2_SERVER="Hashover-Next server URL (without 'http://')"
