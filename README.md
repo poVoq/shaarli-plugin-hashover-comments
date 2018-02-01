@@ -3,7 +3,7 @@ Embedd php based commenting engine in your Shaarli permalinks
 
 **Alpha version, use at your own risk!**
 
-Include Hashover-Next (https://github.com/jacobwb/hashover-next) comments into your Shaarli page (permalink view). Base on Shaarli Isso plugin, but can run on any server with php, not like Isso which requires Python. Also supports Markdown, which is nice :)
+Include Hashover-Next (https://github.com/jacobwb/hashover-next) comments into your Shaarli page (permalink view). Based on Shaarli Isso plugin, but can run on any server with php, not like Isso which requires Python. Also supports Markdown, which is nice :)
 
 Due to a php7.1 related bug in Hashover-Next, please use my fork instead: https://github.com/poVoq/hashover-next
 Thanks at @leem32 for writing this fix. See details here: https://github.com/jacobwb/hashover-next/issues/186#issuecomment-337907829
