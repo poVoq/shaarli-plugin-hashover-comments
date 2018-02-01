@@ -18,5 +18,6 @@ Because of a php7.1 related bug in Hashover-Next use my quick fork instead ( htt
 - The original Isso plugin has some better way to loading .css files I guess?
 - Email notifications on replies not working?
 - No idea how to change Avatars :(
+- User's can't seem to delete their own posts through the edit menu (permissions error) and even the admin can't seem to delete posts (successfull message comes though)... need to check my Hashover-next settings I guess.
 
 Tested with Shaarli 0.9.4 and Shaarli Material theme
