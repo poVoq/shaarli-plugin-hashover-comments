@@ -13,11 +13,12 @@ Because of a php7.1 related bug in Hashover-Next use my quick fork instead ( htt
 3. Enable via the Shaarli tools menu & set the URL where you installed Hashover-Next.
 
 **Known issues:**
-- "Likes" are not working on my server (can be disabled in Hashover-Next's /scripts/settings.php though)
+- "Likes" are not working unless you use apply the fix found in my Hashover-Next fork.
 - Hashover-Next CSS theme needs to fit better to the Shaarli theme (pull-requests welcome)
 - The original Isso plugin has some better way to loading .css files I guess?
 - Email notifications on replies not working?
 - No idea how to change Avatars :(
-- User's can't seem to delete their own posts through the edit menu (permissions error) and even the admin can't seem to delete posts (successfull message comes though)... need to check my Hashover-next settings I guess.
+- Users can't seem to delete their own posts through the edit menu (permissions error)
+- Admin users can delete posts (successfull message comes)... but it seems to take a few reloads to register.
 
 Tested with Shaarli 0.9.4 and Shaarli Material theme
