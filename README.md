@@ -11,15 +11,14 @@ Because of a php7.1 related bug in Hashover-Next use my quick fork instead ( htt
 1. Download and install Hashover-Next on your server; Configure by editing the /scripts/settings.php file.
 2. Download this plugin and place the "hashover2" folder into your Shaarli "plugins" directory. 
 3. Enable via the Shaarli tools menu & set the URL where you installed Hashover-Next.
+4. Optionally also install and enable the commentlink plugin from this repository to show a nice icon link.
 
 **Known issues:**
 - "Likes" are not working unless you use apply the fix found in my Hashover-Next fork.
 - With the default theme comments fill the full width of the browser window (looks much nicer with the material theme)
-- No obvious indication in the main list view that you can comment in the permalink view
--- Make an optional second plugin that should make a link, probably also works with Isso? Based on Archive.org plugin
 - Hashover-Next CSS theme needs to fit better to the Shaarli theme (pull-requests welcome)
 - The original Isso plugin has some better way to loading .css files I guess?
-- Email notifications on replies not working?
+- Email notifications on replies not working? Probably just my bad shared hosting forbidding php to send emails.
 - No idea how to change Avatars :(
 - Users can't seem to delete their own posts through the edit menu (permissions error)
 - Admin users can delete posts (successfull message comes)... but it seems to take a few reloads to register
