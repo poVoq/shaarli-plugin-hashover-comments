@@ -16,6 +16,7 @@ Because of a php7.1 related bug in Hashover-Next use my quick fork instead ( htt
 - "Likes" are not working unless you use apply the fix found in my Hashover-Next fork.
 - With the default theme comments fill the full width of the browser window (looks much nicer with the material theme)
 - No obvious indication in the main list view that you can comment in the permalink view
+-- Make an optional second plugin that should make a link, probably also works with Isso? Based on Archive.org plugin
 - Hashover-Next CSS theme needs to fit better to the Shaarli theme (pull-requests welcome)
 - The original Isso plugin has some better way to loading .css files I guess?
 - Email notifications on replies not working?
@@ -24,3 +25,5 @@ Because of a php7.1 related bug in Hashover-Next use my quick fork instead ( htt
 - Admin users can delete posts (successfull message comes)... but it seems to take a few reloads to register
 
 Tested with Shaarli 0.9.4 and Shaarli Material theme
+
+Commentlink icon image from Google Material Icons under Apache License Version 2.0
