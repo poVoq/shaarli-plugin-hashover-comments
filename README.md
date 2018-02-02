@@ -14,11 +14,13 @@ Because of a php7.1 related bug in Hashover-Next use my quick fork instead ( htt
 
 **Known issues:**
 - "Likes" are not working unless you use apply the fix found in my Hashover-Next fork.
+- With the default theme comments fill the full width of the browser window (looks much nicer with the material theme)
+- No obvious indication in the main list view that you can comment in the permalink view
 - Hashover-Next CSS theme needs to fit better to the Shaarli theme (pull-requests welcome)
 - The original Isso plugin has some better way to loading .css files I guess?
 - Email notifications on replies not working?
 - No idea how to change Avatars :(
 - Users can't seem to delete their own posts through the edit menu (permissions error)
-- Admin users can delete posts (successfull message comes)... but it seems to take a few reloads to register.
+- Admin users can delete posts (successfull message comes)... but it seems to take a few reloads to register
 
 Tested with Shaarli 0.9.4 and Shaarli Material theme
