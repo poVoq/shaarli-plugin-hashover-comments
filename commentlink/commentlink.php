@@ -21,7 +21,7 @@ function hook_commentlink_render_linklist($data)
         if($value['private'] && preg_match('/^\?[a-zA-Z0-9-_@]{6}($|&|#)/', $value['real_url'])) {
             continue;
         }
-        $commentlink = sprintf($commentlink_html, $value['url'], t('View comments'));
+        $commentlink = sprintf($commentlink_html, $value['shorturl']);
         $value['link_plugin'][] = $commentlink;
     }
 
